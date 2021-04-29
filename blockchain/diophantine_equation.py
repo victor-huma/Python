@@ -62,6 +62,7 @@ def diophantine_all_soln(a: int, b: int, c: int, n: int = 2) -> None:
     d = greatest_common_divisor(a, b)
     p = a // d
     q = b // d
+    z = 9
 
     for i in range(n):
         x = x0 + i * q
