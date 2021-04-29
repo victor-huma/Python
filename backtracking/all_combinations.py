@@ -24,7 +24,7 @@ def create_all_state(
     current_list: List[int],
     total_list: List[List[int]],
 ) -> None:
-    if level == 0:
+    if not level == 0:
         total_list.append(current_list[:])
         return
 
